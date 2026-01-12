@@ -77,19 +77,24 @@ LibraryManagementSystem/
 ## 🎨 Screenshot & Fitur
 
 <img width="905" height="790" alt="image" src="https://github.com/user-attachments/assets/2f142e12-76fc-482a-a894-9ec98b1ab24b" />
+
 ### Main Form
 - Dashboard utama dengan navigasi ke semua modul
 - Tampilan modern dengan color-coded buttons
 
+
   
 <img width="1364" height="867" alt="image" src="https://github.com/user-attachments/assets/8678accf-2e5f-4fcb-bb9f-f4597183e573" />
+
 ### Manajemen Buku
 - Tambah, Edit, Hapus buku
 - Tampilan DataGridView Katalog Buku
 - Auto-save
 
+
   
 <img width="1364" height="817" alt="image" src="https://github.com/user-attachments/assets/8fe5319c-d9d7-4ea0-b8bd-13c62e1b34c4" />
+
 ### Manajemen Anggota
 - Tambah, Edit, Hapus Anggota lengkap
 - Tampilan DataGridView Anggota
@@ -97,6 +102,7 @@ LibraryManagementSystem/
 
 
 <img width="809" height="632" alt="image" src="https://github.com/user-attachments/assets/e42b826b-ac19-41c5-978a-3882f6674d09" />
+
 ### Peminjaman
 - Pilih anggota dan buku
 - Auto calculate due date (7 hari dari tanggal pinjam)
@@ -104,6 +110,7 @@ LibraryManagementSystem/
 
 
 <img width="1094" height="551" alt="image" src="https://github.com/user-attachments/assets/cac1dab2-e4c9-46d1-b2f6-5f91027bf131" />
+
 ### Pengembalian
 - List peminjaman aktif
 - Perhitungan denda otomatis (Rp 2.000/hari)
@@ -112,6 +119,7 @@ LibraryManagementSystem/
 
 
 <img width="1363" height="842" alt="image" src="https://github.com/user-attachments/assets/860eb6fb-ead6-4a4e-91c1-f37540f0138c" />
+
 ### Riwayat & Laporan
 - View semua riwayat 
 
