@@ -13,16 +13,27 @@ Aplikasi ini adalah aplikasi manajemen perpustakaan berbasis C# WinForms dengan 
 ## Konsep yang Diterapkan
 
 ### Object-Oriented Programming (OOP)
-- **Class**: `Book`, `Member`, `Borrowing`, `Return`, `History`
+- **Class di setiap form**: `Book`, `Member`, `Borrowing`, `Return`, `History`
 - **Method**: Functions dan Procedures dalam setiap class
 
-### Inheritance (Pewarisan)
-- Implementasi method override
+### Encapsulation
+- Membungkus fungsi dan data ke 1 class (contoh di form book.cs)
+- 
+### Abstraction 
+- menyembunyikan detail rumit dan hanya menampilkan fungsi penting (bookRepo.AddBook(book);)
 
-### Polymorphism
+### Inheritance 
+- class mewarisi class lain (public partial class BookForm : Form)
+
+### Polymorphism 
+Method namanya sama tapi perilakunya bisa berbeda tergantung class atau kondisi saat dipanggil
 - Virtual method: `HitungDenda()` di class `Borrowing`
-- Override method di derived class `SpecialBorrowing`
-- Abstract method: `GetRole()`, `ValidateAccess()`
+- Override method seperti protected override void Dispose(bool disposing)
+- Semua aksi 'click' tetapi tergantung menangani apa
+  private void btnAdd_Click(object sender, EventArgs e)
+  private void btnUpdate_Click(object sender, EventArgs e)
+  private void btnDelete_Click(object sender, EventArgs e)
+
 
 ### Database Management
 - SQL Server 
