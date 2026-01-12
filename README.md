@@ -13,7 +13,7 @@ Aplikasi ini adalah aplikasi manajemen perpustakaan berbasis C# WinForms dengan 
 ## Konsep yang Diterapkan
 
 ### Object-Oriented Programming (OOP)
-- **Class di setiap form**: `Book`, `Member`, `Borrowing`, `Return`, `History`
+- **Class di setiap form**: `Book`, `Member`, `Borrowing`
 - **Method**: Functions dan Procedures dalam setiap class
 
 ### Encapsulation
