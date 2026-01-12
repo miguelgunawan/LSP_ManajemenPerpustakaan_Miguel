@@ -2,20 +2,18 @@
 
 Aplikasi manajemen perpustakaan berbasis C# WinForms dengan fitur lengkap untuk mengelola buku, anggota, peminjaman, dan pengembalian.
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 - ✅ **CRUD Buku** - Kelola data buku (Kode, Judul, Penulis, Penerbit, Stok)
 - ✅ **CRUD Anggota** - Kelola data anggota perpustakaan
 - ✅ **Peminjaman Buku** - Proses peminjaman dengan auto calculate jatuh tempo (7 hari)
 - ✅ **Pengembalian Buku** - Proses pengembalian dengan perhitungan denda otomatis (Rp 2.000/hari)
 - ✅ **Riwayat & Laporan** - Lihat riwayat peminjaman lengkap
-- ✅ **Export Data** - Export ke format TXT dan CSV
 
-## 🎯 Konsep yang Diterapkan
+## Konsep yang Diterapkan
 
 ### Object-Oriented Programming (OOP)
-- **Class**: `Book`, `Member`, `Borrowing`, `User`, `Petugas`
-- **Encapsulation**: Properties dengan getter/setter
+- **Class**: `Book`, `Member`, `Borrowing`, `Return`, `History`
 - **Method**: Functions dan Procedures dalam setiap class
 
 ### Inheritance (Pewarisan)
@@ -33,11 +31,6 @@ Aplikasi manajemen perpustakaan berbasis C# WinForms dengan fitur lengkap untuk 
 - CRUD operations dengan stored procedures
 - Transaction handling
 - Indexes untuk performance
-
-### File I/O
-- Export data ke TXT format
-- Export data ke CSV format
-- Generate laporan otomatis
 
 ### Data Structures
 - Array dan List<T> untuk manajemen koleksi
@@ -164,9 +157,6 @@ LibraryManagementSystem/
 
 ### Riwayat & Laporan
 - View semua transaksi
-- Filter by status
-- Export ke TXT/CSV
-- Generate laporan statistik
 
 ## 🔧 Konfigurasi
 
@@ -282,8 +272,7 @@ Aplikasi sudah include validasi di setiap operasi:
 Aplikasi ini merupakan implementasi dari konsep:
 - OOP (Encapsulation, Inheritance, Polymorphism)
 - Database Management
-- File I/O Operations
-- Data Structures (Array, List, Sorting)
+- Data Structures (Array, List)
 - Error Handling & Debugging
 - UI/UX Design
 
@@ -304,7 +293,7 @@ Aplikasi ini merupakan implementasi dari konsep:
 
 ## 📄 License
 
-Project ini dibuat untuk tujuan edukasi dan portfolio.
+Project ini dibuat untuk tujuan edukasi dan memenuhi tes sertifikasi LSP Miguel Stanley Gunawan
 
 ## 💬 Support
 
@@ -353,6 +342,6 @@ Sebelum demo/presentasi, pastikan:
 
 ---
 
-**Dibuat dengan ❤️ menggunakan C# WinForms**
+**Dibuat dengan menggunakan C# WinForms**
 
 **© 2026 Library Management System**
