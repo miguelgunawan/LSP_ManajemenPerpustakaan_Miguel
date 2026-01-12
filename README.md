@@ -18,7 +18,7 @@ Aplikasi ini adalah aplikasi manajemen perpustakaan berbasis C# WinForms dengan 
 
 ### Encapsulation
 - Membungkus fungsi dan data ke 1 class (contoh di form book.cs)
-- 
+- get, set di form model 
 ### Abstraction 
 - menyembunyikan detail rumit dan hanya menampilkan fungsi penting (bookRepo.AddBook(book);)
 
