@@ -252,9 +252,8 @@ CREATE TABLE `t_Peminjaman` (
 **Solution**:
 1. Run `Database/SetupDatabase.sql` script
 
-```
 
-## 📊 Testing Categories
+### 📊 Testing Categories
 
 - UI Interface
   Main Form menampilkan seluruh modul fitur
@@ -276,7 +275,7 @@ CREATE TABLE `t_Peminjaman` (
 - Business Logic
   Kalkulasi Perhitungan Otomatis Denda Keterlambatan
 
-## ✅ Testing Checklist
+### ✅ Testing Checklist
 
 - ✅ Database sudah di-setup dengan benar
 - ✅ Sample data sudah ter-load
@@ -288,7 +287,7 @@ CREATE TABLE `t_Peminjaman` (
 - ✅ Error handling menampilkan pesan yang jelas
 - ✅ UI tampil rapi dan friendly
 
-## 🎓 Learning Resources
+### 🎓 Learning Resources
 
 Aplikasi ini merupakan implementasi dari konsep:
 - OOP (Encapsulation, Inheritance, Polymorphism)
@@ -297,7 +296,7 @@ Aplikasi ini merupakan implementasi dari konsep:
 - Error Handling & Debugging
 - UI/UX Design
 
-## 📄 Author
+### 📄 Author
 Project ini dibuat untuk tujuan edukasi dan memenuhi tes sertifikasi LSP Miguel Stanley Gunawan
 ---
 
