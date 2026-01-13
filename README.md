@@ -151,7 +151,8 @@ Edit di `App.config` jika perlu:
 Ubah `Server=localhost` sesuai SQL Server instance Anda.
 
 ## 📈 ER-Diagram
-<img width="901" height="746" alt="ERD- Miguel - 0706022210031 drawio" src="https://github.com/user-attachments/assets/d63d6562-0a2b-4ceb-8e28-cd089505942e" />
+<img width="911" height="746" alt="ERD- LSP- Miguel drawio" src="https://github.com/user-attachments/assets/3119a1d2-f75b-468b-97ee-88b3eb5b24b9" />
+
 
 ## 🔐 SQl Schema
 ```Text
