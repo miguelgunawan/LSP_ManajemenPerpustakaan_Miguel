@@ -198,7 +198,7 @@ CREATE TABLE `t_Peminjaman` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
  -- 
-## 📝 Cara Penggunaan & Instruksi Testing
+## 📝 Cara Penggunaan
 
 ### 1. Kelola Buku
 1. Klik "📚 KELOLA BUKU"
@@ -253,6 +253,127 @@ CREATE TABLE `t_Peminjaman` (
 **Solution**:
 1. Run `Database/SetupDatabase.sql` script
 
+### Skenario Pengujian (Test Case)
+Siap 👍
+Berikut saya ubah **seluruh skenario pengujian** yang kamu kirim menjadi **format TABEL Markdown** yang **rapi, konsisten, dan cocok langsung untuk README GitHub**.
+
+Kamu bisa **copy–paste langsung ke `README.md`**.
+
+---
+
+## 🧪 3. Skenario Pengujian (Test Case)
+
+### 3.1 Pengujian Login User
+
+| Keterangan                | Deskripsi                            |
+| ------------------------- | ------------------------------------ |
+| **Test Case ID**          | TC-01                                |
+| **Nama Fitur**            | Login User                           |
+| **Langkah Pengujian**     | Klik tombol **User** pada form Login |
+| **Data Input**            | -                                    |
+| **Hasil yang Diharapkan** | Sistem menampilkan **UserForm**      |
+| **Hasil Aktual**          | Sesuai                               |
+| **Status**                | Lulus                                |
+
+---
+
+### 3.2 Pengujian Tampilan Katalog Buku (User)
+
+| Keterangan                | Deskripsi                            |
+| ------------------------- | ------------------------------------ |
+| **Test Case ID**          | TC-02                                |
+| **Nama Fitur**            | Katalog Buku                         |
+| **Langkah Pengujian**     | Masuk sebagai User                   |
+| **Data Input**            | Data dari tabel `t_Buku`             |
+| **Hasil yang Diharapkan** | Data buku tampil di **DataGridView** |
+| **Hasil Aktual**          | Sesuai                               |
+| **Status**                | Lulus                                |
+
+---
+
+### 3.3 Pengujian Login Admin
+
+| Keterangan                | Deskripsi                             |
+| ------------------------- | ------------------------------------- |
+| **Test Case ID**          | TC-03                                 |
+| **Nama Fitur**            | Login Admin                           |
+| **Langkah Pengujian**     | Klik tombol **Admin** pada form Login |
+| **Data Input**            | Username dan Password Admin           |
+| **Hasil yang Diharapkan** | Sistem menampilkan **MainForm Admin** |
+| **Hasil Aktual**          | Sesuai                                |
+| **Status**                | Lulus                                 |
+
+---
+
+### 3.4 Pengujian Kelola Buku
+
+| Keterangan                | Deskripsi                   |
+| ------------------------- | --------------------------- |
+| **Test Case ID**          | TC-04                       |
+| **Nama Fitur**            | Kelola Buku                 |
+| **Langkah Pengujian**     | Admin membuka menu **Buku** |
+| **Data Input**            | Data buku                   |
+| **Hasil yang Diharapkan** | Data buku dapat dikelola    |
+| **Hasil Aktual**          | Sesuai                      |
+| **Status**                | Lulus                       |
+
+---
+
+### 3.5 Pengujian Kelola Anggota
+
+| Keterangan                | Deskripsi                               |
+| ------------------------- | --------------------------------------- |
+| **Test Case ID**          | TC-05                                   |
+| **Nama Fitur**            | Kelola Anggota                          |
+| **Langkah Pengujian**     | Admin membuka menu **Anggota**          |
+| **Data Input**            | Data anggota                            |
+| **Hasil yang Diharapkan** | Data anggota tampil di **DataGridView** |
+| **Hasil Aktual**          | Sesuai                                  |
+| **Status**                | Lulus                                   |
+
+---
+
+### 3.6 Pengujian Peminjaman Buku
+
+| Keterangan                | Deskripsi                                   |
+| ------------------------- | ------------------------------------------- |
+| **Test Case ID**          | TC-06                                       |
+| **Nama Fitur**            | Peminjaman Buku                             |
+| **Langkah Pengujian**     | Pilih anggota dan buku lalu klik **Simpan** |
+| **Data Input**            | Anggota aktif dan buku tersedia             |
+| **Hasil yang Diharapkan** | Transaksi peminjaman berhasil               |
+| **Hasil Aktual**          | Sesuai                                      |
+| **Status**                | Lulus                                       |
+
+---
+
+### 3.7 Pengujian Pengembalian Buku
+
+| Keterangan                | Deskripsi                                |
+| ------------------------- | ---------------------------------------- |
+| **Test Case ID**          | TC-07                                    |
+| **Nama Fitur**            | Pengembalian Buku                        |
+| **Langkah Pengujian**     | Klik **Kembalikan** pada data peminjaman |
+| **Data Input**            | Data peminjaman aktif                    |
+| **Hasil yang Diharapkan** | Status berubah menjadi **Dikembalikan**  |
+| **Hasil Aktual**          | Sesuai                                   |
+| **Status**                | Lulus                                    |
+
+---
+
+### 3.8 Pengujian Riwayat Peminjaman
+
+| Keterangan                | Deskripsi                      |
+| ------------------------- | ------------------------------ |
+| **Test Case ID**          | TC-08                          |
+| **Nama Fitur**            | Riwayat Peminjaman             |
+| **Langkah Pengujian**     | Admin membuka menu **Riwayat** |
+| **Data Input**            | Data tabel `t_Peminjaman`      |
+| **Hasil yang Diharapkan** | Data riwayat tampil            |
+| **Hasil Aktual**          | Sesuai                         |
+| **Status**                | Lulus                          |
+
+---
 
 ### 📊 Testing Categories
 
