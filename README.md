@@ -230,7 +230,6 @@ CREATE TABLE `t_Peminjaman` (
 1. Klik "📋 RIWAYAT & LAPORAN"
 2. Lihat semua transaksi
 3. Filter by status jika perlu
-4. Klik "📄 Export TXT" atau "📊 Export CSV"
 
 ## 🐛 Debugging & Troubleshooting
 
