@@ -261,9 +261,9 @@ Kamu bisa **copy–paste langsung ke `README.md`**.
 
 ---
 
-## 🧪 3. Skenario Pengujian (Test Case)
+## 🧪Skenario Pengujian (Test Case)
 
-### 3.1 Pengujian Login User
+### Pengujian Login User
 
 | Keterangan                | Deskripsi                            |
 | ------------------------- | ------------------------------------ |
@@ -277,7 +277,7 @@ Kamu bisa **copy–paste langsung ke `README.md`**.
 
 ---
 
-### 3.2 Pengujian Tampilan Katalog Buku (User)
+### Pengujian Tampilan Katalog Buku (User)
 
 | Keterangan                | Deskripsi                            |
 | ------------------------- | ------------------------------------ |
@@ -291,7 +291,7 @@ Kamu bisa **copy–paste langsung ke `README.md`**.
 
 ---
 
-### 3.3 Pengujian Login Admin
+### Pengujian Login Admin
 
 | Keterangan                | Deskripsi                             |
 | ------------------------- | ------------------------------------- |
@@ -305,7 +305,7 @@ Kamu bisa **copy–paste langsung ke `README.md`**.
 
 ---
 
-### 3.4 Pengujian Kelola Buku
+### Pengujian Kelola Buku
 
 | Keterangan                | Deskripsi                   |
 | ------------------------- | --------------------------- |
@@ -319,7 +319,7 @@ Kamu bisa **copy–paste langsung ke `README.md`**.
 
 ---
 
-### 3.5 Pengujian Kelola Anggota
+### Pengujian Kelola Anggota
 
 | Keterangan                | Deskripsi                               |
 | ------------------------- | --------------------------------------- |
@@ -333,7 +333,7 @@ Kamu bisa **copy–paste langsung ke `README.md`**.
 
 ---
 
-### 3.6 Pengujian Peminjaman Buku
+### Pengujian Peminjaman Buku
 
 | Keterangan                | Deskripsi                                   |
 | ------------------------- | ------------------------------------------- |
@@ -347,7 +347,7 @@ Kamu bisa **copy–paste langsung ke `README.md`**.
 
 ---
 
-### 3.7 Pengujian Pengembalian Buku
+### Pengujian Pengembalian Buku
 
 | Keterangan                | Deskripsi                                |
 | ------------------------- | ---------------------------------------- |
@@ -361,7 +361,7 @@ Kamu bisa **copy–paste langsung ke `README.md`**.
 
 ---
 
-### 3.8 Pengujian Riwayat Peminjaman
+### Pengujian Riwayat Peminjaman
 
 | Keterangan                | Deskripsi                      |
 | ------------------------- | ------------------------------ |
