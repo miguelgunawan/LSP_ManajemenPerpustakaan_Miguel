@@ -124,23 +124,7 @@ LibraryManagementSystem/
 <img width="1363" height="842" alt="image" src="https://github.com/user-attachments/assets/860eb6fb-ead6-4a4e-91c1-f37540f0138c" />
 
 ### Riwayat & Laporan
-- View semua riwayat 
-
-## 🔧 Konfigurasi
-
-### Connection String
-
-Edit di `App.config` jika perlu:
-
-```xml
-<connectionStrings>
-  <add name="LibraryDB" 
-       connectionString="Server=localhost;Database=LibraryManagementDB;Integrated Security=true;TrustServerCertificate=true;" 
-       providerName="System.Data.SqlClient"/>
-</connectionStrings>
-```
-
-Ubah `Server=localhost` sesuai SQL Server instance Anda.
+- View semua riwayat buku yang sudah dikembalikan
 
 ## 📈 ER-Diagram
 <img width="911" height="746" alt="ERD- LSP- Miguel drawio" src="https://github.com/user-attachments/assets/3119a1d2-f75b-468b-97ee-88b3eb5b24b9" />
