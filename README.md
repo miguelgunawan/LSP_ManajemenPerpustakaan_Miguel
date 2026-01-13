@@ -23,7 +23,7 @@ Aplikasi ini adalah aplikasi manajemen perpustakaan berbasis C# WinForms dengan 
 - menyembunyikan detail rumit dan hanya menampilkan fungsi penting (bookRepo.AddBook(book);)
 
 ### Inheritance 
-- class mewarisi class lain (public partial class BookForm : Form)
+- class mewarisi class lain (public partial class BookForm : Form) mewarisi class form dari winform.
 
 ### Polymorphism 
 Method namanya sama tapi perilakunya bisa berbeda tergantung class atau kondisi saat dipanggil
