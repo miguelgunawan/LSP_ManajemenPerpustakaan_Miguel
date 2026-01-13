@@ -154,6 +154,7 @@ Ubah `Server=localhost` sesuai SQL Server instance Anda.
 <img width="901" height="746" alt="ERD- Miguel - 0706022210031 drawio" src="https://github.com/user-attachments/assets/d63d6562-0a2b-4ceb-8e28-cd089505942e" />
 
 ## 🔐 SQl Schema
+```Text
 -- Create Books table
 CREATE TABLE `t_Buku` (
   `IdBuku` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -194,7 +195,7 @@ CREATE TABLE `t_Peminjaman` (
   CONSTRAINT `fk_peminjaman_anggota` FOREIGN KEY (`IdAnggota`) REFERENCES `t_Anggota`(`IdAnggota`) ON UPDATE CASCADE ON DELETE RESTRICT,
   CONSTRAINT `fk_peminjaman_buku` FOREIGN KEY (`IdBuku`) REFERENCES `t_Buku`(`IdBuku`) ON UPDATE CASCADE ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
+```
  -- 
 ## 📝 Cara Penggunaan & Instruksi Testing
 
