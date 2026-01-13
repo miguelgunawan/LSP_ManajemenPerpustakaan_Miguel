@@ -34,7 +34,6 @@ Method namanya sama tapi perilakunya bisa berbeda tergantung class atau kondisi 
   private void btnUpdate_Click(object sender, EventArgs e)
   private void btnDelete_Click(object sender, EventArgs e)
 
-
 ### Database Management
 - SQL Server 
 - CRUD operations dengan stored procedures
@@ -48,13 +47,6 @@ Method namanya sama tapi perilakunya bisa berbeda tergantung class atau kondisi 
 - Procedure untuk operasi database (INSERT, UPDATE, DELETE)
 - Function untuk kalkulasi (denda, stok, validasi)
 - Helper methods untuk reusable code
-
-## 📋 Prasyarat
-
-- Windows OS (Windows 10/11 recommended)
-- SQL Server 2019 atau lebih baru (Express Edition sudah cukup)
-- Visual Studio 2022 (Community Edition)
-
 
 ## 📁 Struktur Project
 
@@ -232,36 +224,160 @@ CREATE TABLE `t_Peminjaman` (
 2. Lihat semua transaksi
 3. Filter by status jika perlu
 
-## 🐛 Debugging & Troubleshooting
 
-### Database Connection Error
+## ⚙️ Installation & Setup
 
-**Problem**: "Cannot connect to database"
-
-**Solution**:
-1. Pastikan SQL Server sedang berjalan:
-   ```bash
-   # Check SQL Server service status
-   Get-Service MSSQLSERVER
-   ```
-2. Verify connection string di App.config
-
-### Database Not Found
-
-**Problem**: "Database 'LibraryManagementDB' does not exist"
-
-**Solution**:
-1. Run `Database/SetupDatabase.sql` script
-
-### Skenario Pengujian (Test Case)
-Siap 👍
-Berikut saya ubah **seluruh skenario pengujian** yang kamu kirim menjadi **format TABEL Markdown** yang **rapi, konsisten, dan cocok langsung untuk README GitHub**.
-
-Kamu bisa **copy–paste langsung ke `README.md`**.
+Panduan ini menjelaskan langkah-langkah untuk menjalankan aplikasi **Library Management System** menggunakan database yang sudah tersedia (**LibraryManagementDb**).
 
 ---
 
-## 🧪Skenario Pengujian (Test Case)
+### 🧩 Prerequisites
+
+Pastikan perangkat telah memenuhi kebutuhan berikut:
+
+* **Windows OS**
+* **Visual Studio 2022** (atau versi terbaru)
+
+  * Workload: **.NET Desktop Development**
+* **.NET Framework** (sesuai project, misalnya .NET Framework 4.8)
+* **MySQL Server** (database sudah tersedia)
+* **MySQL Workbench** (opsional, untuk pengecekan data)
+
+---
+
+### 📦 1. Clone atau Download Project
+
+Clone repository dari GitHub:
+
+```bash
+git clone https://github.com/username/LibraryManagementSystem.git
+```
+
+Atau download repository dalam bentuk **ZIP**, lalu ekstrak ke komputer lokal.
+
+---
+
+### 🗂️ 2. Buka Project di Visual Studio
+
+1. Buka **Visual Studio**
+2. Pilih **Open a project or solution**
+3. Arahkan ke folder hasil clone / extract
+4. Buka file:
+
+   ```
+   LibraryManagementSystem.sln
+   ```
+
+---
+
+### 🛢️ 3. Pastikan Database Aktif
+
+Database **`LibraryManagementDb`** sudah tersedia.
+
+Pastikan:
+
+* MySQL Server **sudah berjalan**
+* Database **LibraryManagementDb** dapat diakses melalui MySQL Workbench
+
+❗ Tidak perlu membuat atau mengimpor database baru.
+
+---
+
+### 🔐 4. Konfigurasi Koneksi Database
+
+Buka file:
+
+```
+DatabaseHelper.cs
+```
+
+Sesuaikan **connection string** agar mengarah ke database yang sudah tersedia:
+
+```csharp
+string connectionString = "server=localhost;database=LibraryManagementDb;uid=root;pwd=;";
+```
+
+Sesuaikan jika perlu:
+
+* `server` → alamat server MySQL
+* `uid` → username MySQL
+* `pwd` → password MySQL
+
+---
+
+### ▶️ 5. Menjalankan Aplikasi
+
+1. Pastikan **MySQL Server aktif**
+2. Di Visual Studio, klik **Start (▶️)** atau tekan `F5`
+3. Aplikasi akan menampilkan **Form Login**
+
+---
+
+### 👤 6. Akses Aplikasi
+
+#### Login User
+
+Digunakan untuk:
+
+* Melihat katalog buku
+* Melihat informasi buku
+
+#### Login Admin
+
+Digunakan untuk:
+
+* Kelola data buku
+* Kelola data anggota
+* Peminjaman buku
+* Pengembalian buku
+* Melihat riwayat / laporan peminjaman
+
+---
+
+### 🧪 7. Pengujian Sistem
+
+Pengujian dilakukan menggunakan **Black Box Testing**, meliputi:
+
+* Login User
+* Login Admin
+* Katalog Buku
+* Kelola Buku
+* Kelola Anggota
+* Peminjaman
+* Pengembalian
+* Riwayat / Laporan
+
+Detail pengujian tersedia pada bagian **Test Case** di dokumentasi.
+
+---
+
+### ⚠️ Troubleshooting
+
+* **Aplikasi tidak dapat terhubung ke database**
+
+  * Pastikan MySQL Server berjalan
+  * Pastikan nama database **LibraryManagementDb** benar
+  * Periksa username dan password MySQL
+* **Data tidak tampil**
+
+  * Pastikan tabel database sudah berisi data
+* **Error saat menjalankan aplikasi**
+
+  * Pastikan .NET Framework sesuai dengan project
+
+---
+
+### ✅ Installation Checklist
+
+* [x] Visual Studio terpasang
+* [x] MySQL Server aktif
+* [x] Database **LibraryManagementDb** tersedia
+* [x] Connection string sesuai
+* [x] Aplikasi berhasil dijalankan
+
+---
+
+## 🧪Skenario Pengujian (Testing Case)
 
 ### Pengujian Login User
 
@@ -419,7 +535,7 @@ Aplikasi ini merupakan implementasi dari konsep:
 - UI/UX Design
 
 ### 📄 Author
-Project ini dibuat untuk tujuan edukasi dan memenuhi tes sertifikasi LSP Miguel Stanley Gunawan
+Project ini dibuat untuk tujuan edukasi dan memenuhi tes sertifikasi LSP 
+Miguel Stanley Gunawan - 0706022210031
 ---
-
 **Dibuat dengan menggunakan C# WinForms**
